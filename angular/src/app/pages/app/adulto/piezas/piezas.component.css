@@ -1,0 +1,185 @@
+.main-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../../../../../assets/images/background/patron_fondo2.png');
+    background-size: cover; 
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    background-color: #FAF5EE;
+    font-family: lato, sans-serif;
+    height: calc(100dvh - 71px); /* 71px de altura original + 20px de margen superior */
+}
+
+.card {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.content-container {
+    padding: 10px;
+}
+
+.center-horizontal {
+    justify-content: center;
+}
+
+.paginacion {
+    padding: 4px;
+    padding-left: 16px;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.contenedor-motor {
+    height: 36dvh;
+    /*border-top: 1px solid #3E5569;*/
+  
+    textarea {
+      font-size: 16px;
+    }
+
+    margin-top: 5px;
+}
+
+.contenedor-descripcion {
+    /*height: calc(100vh - 71.38px - 34vh - 255px);*/
+    padding-top: 8px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-transform: none;
+    color: #454545;
+}
+
+.contenedor-pictograma {
+    display: none;
+    /*height: calc(100vh - 71.38px - 34vh - 255px);*/
+    margin-top: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-transform: none;
+    color: #454545;
+}
+
+.contenedor-musica {
+    display: none;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+.titulo-pagina {
+    margin-bottom: 0px;
+    font-size: 17px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.info-pieza {
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.cabecera {
+    background-color: #ede9e1;
+    padding: 10px;
+    color: #454545;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); /* Desplazamiento vertical de 2px, sin desplazamiento horizontal */
+}
+
+.contenedor-juego {
+    height: calc(100dvh - 71.38px - 36dvh - 54px - 34px);
+    padding-top: 10px;
+    padding: 18px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.contenedor-informacion {
+    border-top: 1px solid #3E5569;
+    overflow-y: auto; /* Permitir desplazamiento vertical si es necesario */
+}
+
+.mdi-botones {
+    font-size: 28px;
+}
+
+.btn-pag {
+    margin: -1px;
+    font-size: 16px;
+    background-color: white;
+    color: #3A3A3A;
+    border-color: #3A3A3A;
+    margin-top: 2px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 10 0px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+#opciones_accesibilidad {
+    margin-left: -2px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.engine-wrapper {
+    position: relative; /* Asegura que los botones se posicionen relativos a este contenedor */
+    height: 36dvh; /* Ajusta según tus necesidades */
+    overflow: hidden; /* Evita que el contenido se desborde */
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.45); /* Sombra */
+    background-image: url('../../../../../assets/images/exposiciones/mua (3).png'); /* Corregido */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+/* Toggle css */
+
+.toggle-container {
+  display: flex;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.toggle-input:checked + .toggle-label {
+  background-color: #454545;
+  color: white;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+}
+  
+
+
+
+
+  

@@ -1,0 +1,8 @@
+*/node_modules
+angular/package-lock.json
+angular/.angular/cache
+node/.env
+node/uploads
+rasa/models
+rasa/actions/__pycache__
+rasa/.rasa
